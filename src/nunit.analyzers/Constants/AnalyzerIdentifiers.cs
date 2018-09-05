@@ -2,7 +2,7 @@ namespace NUnit.Analyzers.Constants
 {
     internal static class AnalyzerIdentifiers
     {
-        // Next is 8
+        // Next is 9
         internal const string AreEqualUsage = "NUNIT_5";
         internal const string AreNotEqualUsage = "NUNIT_6";
         internal const string FalseUsage = "NUNIT_1";
@@ -10,5 +10,6 @@ namespace NUnit.Analyzers.Constants
         internal const string IsTrueUsage = "NUNIT_3";
         internal const string TestCaseUsage = "NUNIT_7";
         internal const string TrueUsage = "NUNIT_4";
+        internal const string AsyncUsage = "NUNIT_8";
     }
 }
